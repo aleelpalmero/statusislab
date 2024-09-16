@@ -34,17 +34,14 @@
 
 <script setup lang="ts">
   useServerSeoMeta({
-    title: 'Status page for Better uptime - Sebastian Kaier',
-    ogTitle: 'Status page for Better uptime - Sebastian Kaier',
-    description: 'See on GitHub - https://github.com/skaiwlkr/better-uptime-status-page',
-    ogDescription: 'Status page for Better uptime - Sebastian Kaier',
-    ogUrl: 'https://better-uptime-status-page.vercel.app/',
-    ogSiteName: 'Status page for Better uptime - Sebastian Kaier',
-    ogImage: 'https://better-uptime-status-page.vercel.app/og-image.png',
+    title: 'ISLAB - Estado de los servicios',
+    ogTitle: 'ISLAB - Estado de los servicios',
+    description: 'Resumen del estado de los servicios administrados por ISLAB - Canary Islands.',
+    ogDescription: 'ISLAB - Estado de los servicios',
+    ogUrl: 'https://status.islab.es/',
+    ogSiteName: 'ISLAB - Estado de los servicios',
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Status page for Better uptime - Sebastian Kaier',
-    twitterImage: 'https://better-uptime-status-page.vercel.app/og_image.png',
-    twitterDescription: 'See on GitHub - https://github.com/skaiwlkr/better-uptime-status-page'
+    twitterTitle: 'ISLAB - Estado de los servicios'
   })
 
   const runtimeConfig = useRuntimeConfig();
