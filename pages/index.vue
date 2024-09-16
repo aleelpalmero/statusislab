@@ -10,19 +10,19 @@
 
                 <!-- Monitor is "pending" -->
                 <span v-if="monitor.attributes.status === 'pending'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-warning"></span>
-                <span v-if="monitor.attributes.status === 'pending'" class="text-warning font-medium">Pending</span>
+                <span v-if="monitor.attributes.status === 'pending'" class="text-warning font-medium">Pendiente</span>
 
                 <!-- Monitor is "maintenance" -->
                 <span v-if="monitor.attributes.status === 'maintenance'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-warning"></span>
-                <span v-if="monitor.attributes.status === 'maintenance'" class="text-warning font-medium">Maintenance</span>
+                <span v-if="monitor.attributes.status === 'maintenance'" class="text-warning font-medium">Mantenimiento</span>
 
                 <!-- Monitor is "up" -->
                 <span v-if="monitor.attributes.status === 'up'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-success"></span>
-                <span v-if="monitor.attributes.status === 'up'" class="text-success font-medium">Operational</span>
+                <span v-if="monitor.attributes.status === 'up'" class="text-success font-medium">Operativo</span>
 
                 <!-- Monitor is "down" -->
                 <span v-if="monitor.attributes.status === 'down'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-error"></span>
-                <span v-if="monitor.attributes.status === 'down'" class="text-error font-medium">Downtime</span>
+                <span v-if="monitor.attributes.status === 'down'" class="text-error font-medium">Interrumpido</span>
               </span>
             </div>
           </li>
